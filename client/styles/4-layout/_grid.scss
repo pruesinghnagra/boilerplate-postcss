@@ -1,0 +1,10 @@
+@use '../2-helpers/columns';
+
+.col-6  {
+    width: columns.width(6, 12)
+}
+
+.grid-6 {
+    grid-column: 6;
+    grid-row: 12;
+}
